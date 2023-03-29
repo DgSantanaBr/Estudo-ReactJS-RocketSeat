@@ -2,7 +2,7 @@
  
 import styles from './Header.module.css'
 
-import igniteLogo from '../image/ignite-logo.svg';
+import igniteLogo from '../image/Ignite-logo.svg';
 
 export function Header(){
 // usamos classname ao invés de class para o react nao se confundir com a classe javascript
