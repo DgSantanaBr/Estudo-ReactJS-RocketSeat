@@ -93,23 +93,23 @@
 }
 
 
-.commentform footer{
+.commentform footer {
     visibility: hidden;
     max-height: 0;
 }
 
-.commentform:focus-within footer{
-visibility: visible;
-max-height: none;
+.commentform:focus-within footer {
+    visibility: visible;
+    max-height: none;
 
 }
 
 
 
-.commentform button[ type= submit]{
+.commentform button[ type=submit] {
     padding: 1rem 1.5rem;
     margin-top: 1rem;
-    border-radius:8px;
+    border-radius: 8px;
     border: 0;
     background: var(--green-500);
     color: var(--white);
@@ -117,9 +117,14 @@ max-height: none;
     transition: background-color 0.1s;
 
 
-   
+
 }
 
-.commentform button[ type= submit]:hover{
+.commentform button[ type=submit]:hover {
     background: var(--green-300);
+}
+
+.commentList {
+    margin-top: 2rem;
+
 }
